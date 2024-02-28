@@ -6,3 +6,34 @@ p{
     font-size:xx-large;
     font-family: monospace;
 }
+body {
+    margin: 0;
+    font-family: monospace;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #8986FF;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .topnav a:hover {
+    background-color: #9E00FF;
+    color: #FF00F5;
+  }
+  
+  .topnav a.active {
+    background-color: #3a38d6;
+    color: white;
+  }
+  h2{
+    color:#9E00FF
+  }
